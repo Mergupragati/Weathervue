@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wether Forecasting Web</title>
+        <link rel="stylesheet" href="weather.css">
+    </head>
+    <body>
+        <div class="header">
+    
+            <h2>Weathervue</h2>
+        </div>
+        <div class="weather">
+            <div class="img">
+                <img src="https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg?w=900" alt="">
+            </div>
+           <div class="input-field">
+            <input type="text" class="input">
+            <button onclick="search()" class="searchbtn">Search</button>
+           </div>
+           <div class="content">
+                <div class="details" style="backdrop-filter: blur(10px);">
+                    <h1 class="temp">0°c</h1>
+                    <h2 class="city"></h2>
+            </div>
+            <div class="details1">
+                    <div class="data" style="padding: 20px 40px;">
+                        <h2 class="h">0</h2>
+                        <p>Humidity</p>
+                    </div>
+                    <div class="data">
+                        <h2 class="w">0</h2>
+                        <p>Wind Speed</p>
+                    </div>
+                
+            </div>
+           </div>
+        </div>
+        <script src="weather.js"></script>
+    </body>
+</html>
